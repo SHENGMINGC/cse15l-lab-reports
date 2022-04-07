@@ -1,9 +1,9 @@
 This is a new file.
->*Italic*
+*Italic*
 
 > Blockquote
 
->**Bold**
+**Bold**
 # UCSD Website
 [Link](https://ucsd.edu/)
 ## UCSD
