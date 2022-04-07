@@ -12,3 +12,9 @@ Colleges with hard writing course
 1. ERC
 2. Revelle
 3. Muir
+'''
+system.out.println("Inline Code")
+'''
+# code block
+print '3 backticks or'
+print 'indent 4 spaces'
