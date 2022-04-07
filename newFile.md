@@ -1,7 +1,7 @@
 This is a new file.
-*Italic*
+>*Italic*
 > Blockquote
-**Bold**
+>**Bold**
 # UCSD Website
 [Link](https://ucsd.edu/)
 ## UCSD
@@ -13,7 +13,7 @@ Colleges with hard writing course
 2. Revelle
 3. Muir
 
-This
+This is an Inline Code
 ```
 system.out.println("Inline Code")
 ```
