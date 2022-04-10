@@ -57,6 +57,8 @@ Durring the class we practiced to copy a java program `WhereAmI.java` to the rem
 After logging in we can use `ls` to see that our java file. Also we can use `javac` and `java` to compile and run the program. 
 
 ![Image](Step4-1.png)
+
+
 ![Image](Step4-2.png)
 
 # Step5：Setting an SSH Key
@@ -74,6 +76,7 @@ After logging in we can use `ls` to see that our java file. Also we can use `jav
 cs15lsp22zz@ieng6.ucsd.edu:~/.ssh/authorized_keys`
 
 Then you can log in to the sever without typing the password.
+
 ![Image](Step5.png)
 
 # Step6: Optimizing Remote Running
