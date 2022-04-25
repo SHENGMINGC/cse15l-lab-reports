@@ -1,7 +1,7 @@
 # Code 1
 
 Screenshot
-![Image](Code change 1.png)
+![Image](CodeChange1.png)
 
 [Failure-inducing input](https://github.com/EdwardNew/markdown-parser/commit/72f6227ba4305d898c5b22590aa57968cbedff55)
 
@@ -14,7 +14,7 @@ The symptom is the code will return the content inside the "()" when it is an im
 
 # Code 2
 Screenshot
-![Image](C:\Users\CEMS\Documents\GitHub\cse15l-lab-reports\Code change 2.png)
+![Image](CodeChange2.png)
 
 
 [Failure-inducing input](https://github.com/SHENGMINGC/markdown-parser/blob/c281089a51c4598eb5c61b3adeefeaf46254ca3b/new-test.md)
@@ -28,7 +28,7 @@ The symptom is the code will return the content in "()" even if there is a sente
 
 # Code 3
 Screenshot
-![Image](Code change 3.png)
+![Image](CodeChange3.png)
 
 [Failure-inducing input](https://github.com/Joshjppark/markdown-parser/blob/a730bb5a104234452fc0389fdb2dcd339273f477/test1.md)
 
