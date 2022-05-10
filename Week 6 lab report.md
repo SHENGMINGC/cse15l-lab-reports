@@ -1,6 +1,7 @@
 # Streamlining ssh Configuration
 
 1) Editing the `.ssh/config` file:
+
 ![Image](option1-1.png)
 
 2) Simplified `ssh` command using the new alias:
