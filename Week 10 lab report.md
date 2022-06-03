@@ -11,7 +11,6 @@ Expect output (using [the CommonMark demo site](https://spec.commonmark.org/ding
 
 Should be `"my_(url)"`
 
-` `
 ![Image](Output1.png)
 
 TA's code is correct.
@@ -37,7 +36,6 @@ Actual output:
 
 Expect output:
 
-` `
 ![Image](Output2.png)
 
 Should be `[]`.
