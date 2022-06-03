@@ -23,7 +23,7 @@ Unfortunately, this means it is impossible to fix this bug without rewriting mos
 
 The code that need to be fixed:
 
-
+` `
 ![image](code1.png)
 
 # Test 2
@@ -41,7 +41,7 @@ Should be `[]`.
 
 The problem is that the code can not distinguish between a link and an image. To fix this we simply need to add a condition somewhere into the following lines.
 
-
+` `
 ![image](code2.png)
 
 
