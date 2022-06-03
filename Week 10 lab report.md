@@ -36,6 +36,7 @@ Actual output:
 ![Image](vim2.png)
 
 Expect output:
+` `
 ![Image](output2.png)
 
 Should be `[]`.
