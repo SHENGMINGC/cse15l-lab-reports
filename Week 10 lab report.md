@@ -22,6 +22,8 @@ The problem is that I don't even know this can represent a link, here is a offic
 Unfortunately, this means it is impossible to fix this bug without rewriting most of my original code. My code search on link based on the specific structure `[]()`. Since this is not the only structure to reference a link, my code will not work in this case.
 
 The code that need to be fixed:
+
+
 ![image](code1.png)
 
 # Test 2
@@ -38,6 +40,8 @@ Expect output:
 Should be `[]`.
 
 The problem is that the code can not distinguish between a link and an image. To fix this we simply need to add a condition somewhere into the following lines.
+
+
 ![image](code2.png)
 
 
