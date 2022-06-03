@@ -13,9 +13,16 @@ Should be `"my_(url)"`
 
 ![Image](Output1.png)
 
+TA's code is correct.
 
+The problem is that I don't even know this can represent a link, here is a official link reference definition for Markdown command:
 
+`A link reference definition consists of a link label, indented up to three spaces, followed by a colon (:), optional whitespace (including up to one line ending), a link destination, optional whitespace (including up to one line ending), and an optional link title, which if it is present must be separated from the link destination by whitespace. No further non-space characters may occur on the line.`
 
+Unfortunately, this means it is impossible to fix this bug without rewriting most of my original code. My code search on link based on the specific structure `[]()`. Since this is not the only structure to reference a link, my code will not work in this case.
+
+The code that need to be fixed:
+![image](code1.png)
 
 # Test 2
 Again we use `vimdiff` to find the different results.
@@ -26,8 +33,11 @@ Actual output:
 ![Image](vim2.png)
 
 Expect output:
-![Image](output1.png)
+![Image](output2.png)
 
-The problem is that the code can not distinguish between a link
+Should be `[]`.
+
+The problem is that the code can not distinguish between a link and an image. To fix this we simply need to add a condition somewhere into the following lines.
+![image](code2.png)
 
 
