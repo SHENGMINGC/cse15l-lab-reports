@@ -38,8 +38,7 @@ Actual output:
 Expect output:
 
 ` `
-` `
-![Image](output2.png)
+![Image](Output2.png)
 
 Should be `[]`.
 
